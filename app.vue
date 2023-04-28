@@ -1,5 +1,6 @@
 <template>
-  <div>
+  <div class="">
+    <AppHeader />
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
@@ -7,11 +8,7 @@
 </template>
 
 <script setup lang="ts">
-// import '@fontsource/mulish/400.css'
-// import '@fontsource/mulish/500.css'
-// import '@fontsource/mulish/700.css'
-// import '@fontsource/mulish/800.css'
-// import '@fontsource/leckerli-one'
+import '@fontsource/open-sans/400.css'
+import '@fontsource/inter/400.css'
+import '@fontsource/inter/700.css'
 </script>
-
-<!-- <style src="~/assets/css/main.scss" lang="scss"></style> -->

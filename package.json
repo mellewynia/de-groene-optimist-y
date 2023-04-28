@@ -19,6 +19,9 @@
     "tailwindcss": "^3.3.1"
   },
   "dependencies": {
+    "@fontsource/inter": "^4.5.15",
+    "@fontsource/nunito-sans": "^4.5.10",
+    "@fontsource/open-sans": "^4.5.14",
     "date-fns": "^2.29.3"
   }
 }

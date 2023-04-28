@@ -1,3 +1,17 @@
+
+<script setup>
+import { appFormatDate } from '~/utils/appFormatDate'
+
+const route = useRoute()
+
+// @ts-ignore
+const article = await queryContent(`/pages/${route.params.pageSlug}`).findOne()
+
+useHead({
+  title: `${article?.title}`,
+})
+</script>
+
 <template>
   <div>
     <article>
@@ -8,7 +22,7 @@
             <h1 class="font-extrabold text-3xl">{{ article.title }}</h1>
             <div class="relative">
               <div class="mt-6 mb-1 w-16 border border-bottom-2"/>
-              <p class="text-sm opacity/70">
+              <p v-if="article.created" class="text-sm opacity/70">
                 {{ appFormatDate(article.created, 'dd MMMM yyyy') }}
               </p>
               <div class="mt-1 mb-6 w-16 border border-bottom-2"/>
@@ -27,23 +41,3 @@
     </article>
   </div>
 </template>
-
-<script setup>
-import { appFormatDate } from '~/utils/appFormatDate'
-
-const route = useRoute()
-
-// @ts-ignore
-const article = await queryContent(`/articles/${route.params.articleSlug}`).findOne()
-
-useHead({
-  title: `${article?.title}`,
-})
-
-</script>
-<!--
-<style>
-.prose h2 a {
-  @apply !no-underline
-}
-</style> -->
