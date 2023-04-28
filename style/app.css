@@ -2,26 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
 body {
-  @apply bg-white dark:bg-black dark:text-white
+  @apply bg-white dark:bg-black dark:text-white;
+  background-image: radial-gradient(rgb(10, 255, 0, 0.02) 2px, transparent 2px);
+  background-size: 48px 48px;
 }
 
 .prose {
 }
 
 .prose > p {
-  @apply mt-3 md:mt-6 md:text-[16px];
+  @apply mt-3 md:mt-6 md:text-[20px];
   line-height: 162%;
 }
 
 .prose > p > a {
-  @apply text-white
+  @apply text-cta;
+  /* text-decoration-color: red; */
 }
 
 .prose > h2 {
-  @apply mt-4 text-2xl
+  @apply mt-8 md:mt-12 text-3xl
 }
 
 .prose > h3 {
-  @apply mt-3 text-xl
+  @apply mt-6 md:mt-8 text-xl
 }

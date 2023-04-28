@@ -7,6 +7,13 @@ export default defineNuxtConfig({
   // content: {
   //   // https://content.nuxtjs.org/api/configuration
   // },
+  app: {
+    head: {
+      link: [
+        { rel: 'stylesheet', href: '/css/fonts/Supreme.css' }
+      ]
+    }
+  },
   postcss: {
     plugins: {
       tailwindcss: {},

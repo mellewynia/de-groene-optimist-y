@@ -6,7 +6,11 @@ leadImages:
 
 De Groene Optimist is gestart uit enthousiasme vóór en om kanttekeningen te plaatsen bij ‘groene’ ontwikkelingen in Nederland, Europa en de wereld.
 
-## Team
+<!-- ## Team -->
+
+### Melle Wijnia
+
+[website](https://mellewynia.nl) [twitter](https://twitter.com/mellewynia) optimist@mellewynia.nl
 
 Melle is een vader van drie en freelance software architect / ontwikkelaar, gespecialiseerd in front-end. 
 Daar draait alles om automatisering, naadloze integraties en een uitstekende gebruikerservaring.
@@ -14,7 +18,7 @@ Daar draait alles om automatisering, naadloze integraties en een uitstekende geb
 Al van jongs af aan zit er een sterke drive in om efficiënte, doordachte constructies te maken. 
 Dat varieert van puzzelen in Sim City tot vandaag de dag het leiden van teams en bedenken van efficiënte oplossingen.
 
-Bij het updaten van zijn huis en auto is het idee geboren om de ’De groene Optimist’ te starten.
+Bij het updaten van zijn huis en auto is het idee geboren om de ‘De groene Optimist’ te starten.
 Door dingen uit te doen en uit te zoeken, ontdek je soms antwoorden op vragen waarvan je niet wist dat je ze had.
 
 ## De naam
