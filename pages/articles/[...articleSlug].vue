@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pb-10">
     <article>
       <ContentRenderer v-if="article" :value="article">
         <div class="mx-auto max-w-[700px]">
@@ -18,6 +18,9 @@
           </div>
         </div>
         <div class="mx-auto max-w-[700px]">
+          <p v-if="article.concept" class="mt-2 py-2 px-3 bg-lime-200/30 rounded text-sm">
+            Dit artikel is (nog) in concept. Volg [@MelleWynia](https://twitter.com/@MelleWynia)" voor een berichtje wanneer het af is.
+          </p>
           <div class="max-w-2xl px-4 dark:prose-invert text-black dark:text-white/80">
             <ContentRendererMarkdown v-if="article" :value="article" class="prose" />
           </div>

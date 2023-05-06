@@ -9,26 +9,50 @@ leadImages:
   - /images/2023-04/snelladen-bij-fastned.jpeg
 ---
 
-Bij de keuze voor een elektrische auto heb ik dit echt onderschat bij onze Hyundai Kona 64 kW uit 2019 met (ja, je raad het al) 1 fase lader. Als aspirant elektrisch rijder dacht ik naïef, wat maakt het uit of het met **7.4 kW (1 fase)** of **22 kW (3 fase)** per uur laadt? Maar wat blijkt, de meeste elektrische laders ondersteunen maximaal 3,7 kW (1 fase) of 11 kW (3 fase). Dat is een enorm verschil.
+Recentelijk zijn er een aantal elektrische auto's op de markt gebracht voor het middensegment die slechts 1 fase boordlader hebben.
+Denk dan aan de MG4 welke in 1 fase (3 fase als optie), Dacia Spring en zo zijn er nog wel wat.
+Maar ook steeds meer particulieren kopen occassions met 1 fase boordlader.
+Het is niet altijd een bewuste overweging bij de koop of lease, en dat zou het wel moeten zijn.
+Dat levert verrassingen op.
+
+Bij de keuze voor een elektrische auto heb ik dit echt onderschat bij onze Hyundai Kona 64 kW uit 2019* met (ja, je raad het al) 1 fase boordlader. Als aspirant elektrisch rijder dacht ik naïef, wat maakt het uit of het met **7.4 kW (1 fase)** of **22 kW (3 fase)** per uur laadt? Maar wat blijkt, de meeste elektrische laadpunten ondersteunen maximaal 3,7 kW (1 fase) of 11 kW (3 fase). Dat maakt in de praktijk een groot verschil.
+
+<small class="block">* Het was een veelgehoorde klacht bij rijders van de de eerste lichting Jaguar I-Pace en Hyundai Kona. De Hyundai Kona heeft vanaf modeljaar 2020 een 3 fase boordlader.</small>
+
+## Mijn verhaal
 
 Het is wel goed om de situatie een beetje toe te lichten: we hebben geen eigen lader en rijden soms meer dan 500 km in twee werkdagen. De eerste dag laad ik tussendoor nog 50 km bij, bij de ene afspraak kan ik wat bijladen, bij de andere niet. Zo werkt dat nou eenmaal. Stel dat we met 300 km range wegrijden, dan heb je aan het einde van de dag dus nog 100 over. Dat vind ik niet comfortabel, want dan moet ik voor de eerste afspraak de volgende dag bijladen: gegeven de keus, kies ik daar liever niet voor. Dan moet je een stuk vroeger vertrekken en ’s ochtends vroeg is het druk bij de snellader.
 
-Dit is weliswaar geen range anxiety. Mocht het nodig zijn, dan zijn er genoeg keuzes. Het is alleen geen prettige gedachte.
+<div class="mt-6 ml-6 mb-6 float-right max-w-[350px]">
+  <span class="text-cta-default uppercase text-sm tracking-wide font-black">
+    Kanttekening
+  </span>
+  <p class="font-italic">
+    Dit is weliswaar geen range anxiety.
+    Mocht het nodig zijn, dan zijn er genoeg keuzes. Het is alleen geen prettige gedachte.
+  </p>
+</div>
 
 Ik besluit dus een publieke lader op te zoeken en gelukkig is degene die het meest dichtbij is, staat op 400 m van mijn huis, nog leeg met een plekje. De volgende is op 700m lopen, toch een stuk verder. Gelukkig is het droog.
 
 De laadpaal blijkt meteen te werken en alles lijkt in orde. De indicatie van laadtijd: 22u, volgende ochtend zou de wagen weer vol genoeg moeten zijn.
 
+<p>
+  <span class="text-sm text-cta-default uppercase tracking-wide font-black">
+    DAG 1 - 07:00 (maandag)
+  </span>
+  <span class="text-sm"> - 150 km range over</span>
+</p>
+
 Volgende ochtend om 07:00 blijkt dat de auto ergens midden in de nacht is gestopt met laden. Het gebeurt soms bij publieke palen, en als het gebeurt komt het nooit uit.
 
 Het regent een beetje en in irritatie berg ik de natte laadkabel z.s.m. op en haal ik deze langs mijn broek, waar nu een veeg op zit… gelukkig is het niet zo zichtbaar, en ik vervolg mijn pad. De tweede werkdag kan beginnen, eens nadenken waar ik het beste kan laden vandaag.
 
-<img src="/images/2023-04/snelladen-bij-fastned.jpeg" class="rounded overflow-hidden"/>
-<small>
+::image{src="/images/2023-04/snelladen-bij-fastned.jpeg" alt="rounded overflow-hidden"}
   Moet nog 80km, even tussendoor laden voor 10 minuutjes. Hopelijk is op bestemming een lader vrij. En hopelijk werkt deze. Fingers crossed.
-</small>
+::
 
-## Wat nou als mijn auto 3-fase laden heeft?
+## Wat nou als mijn auto 3-fase laden had?
 
 Nou simpel. Dan had ik bij de eerste afspraak bijna 30 kW i.p.v. 10 kW kunnen bijladen. Dat is geen 75 km, maar 225 km aan extra range tussendoor bijgeladen! Dan had ik bijna helemaal af gekund met laden tussendoor. Dan had ik aan het einde van de dag niet hoeven bijladen en lekker op pad gekunt. De kans dat je in de dag een planning moet aanpassen om een snellader te bezoeken of een andere detour, wordt ineens een stuk kleiner.
 
@@ -40,7 +64,6 @@ Psychologisch gezien zit het ook mijn verwachtingspatroon dat als je een auto ui
 Neem de volgende rekensom. Stel dat mijn auto tot 8% leeg heb gereden, moet ik 60 kW laden. Met 1-fase duurt dit 18 uur (60 / 3,5 kW) en meestal langer (soms wel 25 uur bij load balancing). Ook speelt dat de auto bij het laden met 3,5 kW zelf ook nog eens 0,5 kW gebruikt voor conditioneren van de batterij en systemen in de auto zelf. Praktisch gezien laad je dan met 3 kW…
 
 Stel dat je een 3-fase auto hebt, dan krijg je hele andere getallen. Dan ga je die 60 kW ineens in pakweg 6 uur (60/11u). Dat is een enorm verschil, want binnen een werkdag is je auto weer helemaal opgeladen! Lekker vol wegrijden.
-
 
 Probeer je eens in te denken dat je dit ziet staan in de display. Geschat wordt dat de batterij over 18:30 uur vol is. En, wanneer is dat precies, als het nu 19:00 is? Reken je even mee?
 

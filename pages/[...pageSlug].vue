@@ -13,7 +13,7 @@ useHead({
 </script>
 
 <template>
-  <div>
+  <div class="pb-10">
     <article>
       <ContentRenderer v-if="article" :value="article">
         <div class="mx-auto max-w-[700px]">

@@ -48,3 +48,8 @@ Supreme Sans
 - https://alpine.nuxt.space/
 - https://github.com/nuxt-themes/alpine/tree/64f5d04c2069a982518d38f3b2dc534775445ff6/.docs/public
 - https://www.fontshare.com/fonts/supreme
+
+
+
+
+<!-- TODO: Daar alle netbeheerders een soort van monopoliepositie hebben, zou je wellicht de vraag zou kunnen stellen of dat wel ideaal is. -->

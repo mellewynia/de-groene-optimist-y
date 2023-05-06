@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -18,7 +20,12 @@ module.exports = {
     colors: {
       black: '#161515',
       white: '#fff',
-      cta: '#3874ff',
+      gray: colors.gray,
+      lime: colors.lime,
+      cta: {
+        ...colors.sky,
+        default: '#3874ff',
+      },
     }
   },
   colors: {

@@ -13,23 +13,26 @@ body {
   background-size: 48px 48px;
 }
 
-.prose {
+.prose * {
 }
 
 .prose > p {
-  @apply mt-3 md:mt-6 md:text-[20px];
+  @apply mt-3 md:mt-6 md:text-[18px];
   line-height: 162%;
 }
 
 .prose > p > a {
-  @apply text-cta;
-  /* text-decoration-color: red; */
+  @apply text-cta-default underline underline-offset-[3px] decoration-cta-default/20 transition ease-out hover:decoration-cta-default/60 active:transition-none active:decoration-cta-default/100
 }
 
-.prose > h2 {
+h2 {
   @apply mt-8 md:mt-12 text-3xl
 }
 
-.prose > h3 {
-  @apply mt-6 md:mt-8 text-xl
+h3 {
+  @apply mt-6 md:mt-8 md:text-[22px] font-[700]
+}
+
+.prose h3 + p {
+  @apply mt-2
 }
