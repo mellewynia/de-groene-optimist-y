@@ -9,11 +9,11 @@
           <div class="heading px-4 relative mb-8 mt-8 md:mt-16">
             <h1 class="font-[200] text-3xl md:text-6xl md:font-[100]">{{ article.title }}</h1>
             <div class="relative">
-              <div class="opacity-60 mt-8 mb-2 w-16 h-[1px] overflow-hidden bg-black dark:bg-white"/>
+              <div class="opacity-60 mt-8 mb-2 w-16 h-[1px] overflow-hidden bg-lime-400 dark:bg-white/40"/>
               <p class="text-sm opacity/70">
-                {{ appFormatDate(article.created, 'dd MMMM yyyy') }}
+                {{ appFormatDate(article.created, 'd MMMM yyyy') }} - {{ article.author }}
               </p>
-              <div class="opacity-60 mt-2 mb-4 w-12 h-[1px] overflow-hidden bg-black dark:bg-white"/>
+              <div class="opacity-60 mt-2 mb-4 w-12 h-[1px] overflow-hidden bg-lime-400 dark:bg-white/40"/>
             </div>
           </div>
         </div>

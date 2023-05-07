@@ -15,7 +15,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      'sans': ['Supreme-Variable', 'Inter', 'sans-serif', 'system-ui'],
+      'sans': ['Supreme-Variable', 'Open SansVariable', 'sans-serif', 'system-ui'],
+      'number': ['Open SansVariable', 'sans-serif', 'system-ui']
     },
     colors: {
       black: '#161515',
@@ -26,6 +27,7 @@ module.exports = {
         ...colors.sky,
         default: '#3874ff',
       },
+      warning: colors.amber
     }
   },
   colors: {

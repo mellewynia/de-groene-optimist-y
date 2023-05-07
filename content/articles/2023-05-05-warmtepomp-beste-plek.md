@@ -1,5 +1,6 @@
 ---
 title: Beste plek voor een warmtepomp, wat ervaringen
+concept: true
 created: 2022-01-23T09:00
 updated: 2022-01-23T09:00
 author: Melle Wijnia

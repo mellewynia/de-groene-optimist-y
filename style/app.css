@@ -11,9 +11,16 @@ body {
   @apply bg-white dark:bg-black dark:text-white;
   background-image: radial-gradient(rgb(10, 255, 0, 0.02) 2px, transparent 2px);
   background-size: 48px 48px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-font-number {
+  font-family: 'Open SansVariable', sans-serif;
 }
 
 .prose * {
+  font-variant-numeric: lining-nums;
 }
 
 .prose > p {
@@ -22,17 +29,17 @@ body {
 }
 
 .prose > p > a {
-  @apply text-cta-default underline underline-offset-[3px] decoration-cta-default/20 transition ease-out hover:decoration-cta-default/60 active:transition-none active:decoration-cta-default/100
+  @apply text-cta-default underline underline-offset-[2px] decoration-[2px] decoration-cta-default/20 dark:decoration-cta-400/30 dark:text-cta-400 transition ease-out hover:decoration-cta-default/60 dark:hover:decoration-cta-400/60 active:transition-none active:decoration-cta-default/100 dark:active:decoration-cta-400/100
 }
 
 h2 {
   @apply mt-8 md:mt-12 text-3xl
 }
 
-h3 {
+.prose > h3 {
   @apply mt-6 md:mt-8 md:text-[22px] font-[700]
 }
 
-.prose h3 + p {
+.prose > h3 + p {
   @apply mt-2
 }

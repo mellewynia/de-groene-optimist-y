@@ -53,3 +53,4 @@ Supreme Sans
 
 
 <!-- TODO: Daar alle netbeheerders een soort van monopoliepositie hebben, zou je wellicht de vraag zou kunnen stellen of dat wel ideaal is. -->
+idee artikel: waarom iedereen altijd zegt, eerst isoleren, dan verbeteren....
