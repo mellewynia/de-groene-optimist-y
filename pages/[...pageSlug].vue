@@ -4,9 +4,8 @@ import { appFormatDate } from '~/utils/appFormatDate'
 
 const route = useRoute()
 
-const { data: _article } = await useAsyncData('article', async () => await queryContent(`/pages/${route.params.pageSlug}`).findOne())
-
-const article = computed(() => _article.value || [])
+// @ts-ignore
+const article = await queryContent(`/pages/${route.params.pageSlug}`).findOne()
 
 useHead({
   title: `${article?.title}`,

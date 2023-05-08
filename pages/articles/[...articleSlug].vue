@@ -1,17 +1,3 @@
-<script setup>
-import { appFormatDate } from '~/utils/appFormatDate'
-
-const route = useRoute()
-
-const { data: _article } = await useAsyncData('article', async () => await queryContent(`/articles/${route.params.articleSlug}`).findOne())
-
-const article = computed(() => _article.value || undefined)
-
-useHead({
-  title: `${article?.value.title}`,
-})
-</script>
-
 <template>
   <div class="pb-10">
     <article>
@@ -43,3 +29,16 @@ useHead({
     </article>
   </div>
 </template>
+
+<script setup>
+import { appFormatDate } from '~/utils/appFormatDate'
+
+const route = useRoute()
+
+// @ts-ignore
+const article = await queryContent(`/articles/${route.params.articleSlug}`).findOne()
+
+useHead({
+  title: `${article?.title}`,
+})
+</script>

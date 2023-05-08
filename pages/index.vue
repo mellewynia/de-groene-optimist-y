@@ -30,10 +30,10 @@
 //   title: 'Blog',
 // })
 
-const { data: _articles } = await useAsyncData('articles', async () => await queryContent('/articles')
-  .where({ concept: { $ne: true } }).sort({ created: -1 }).find())
-
-const articles = computed(() => _articles.value || [])
+const articles = await queryContent('/articles')
+  .where({ concept: { $ne: true } })
+  .sort({ date: -1 })
+  .find()
 </script>
 
 <style scoped>
