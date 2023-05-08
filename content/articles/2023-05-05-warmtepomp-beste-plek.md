@@ -39,3 +39,19 @@ Roest, corrosie en vochtproblemen of storing op de printplaat kunnen snel, grote
 Ik denk dat als zo'n unit 10 jaar mee gaat zonder storingen, dat je in je handjes mag klappen.
 
 <!-- Buiten en binnendeel? Resonanties in leidingen... draait 24/7 ook in de nacht -->
+
+De plek waarop je een warmtepomp neerzet, kan een groot effect hebben op het plezier dat je ervan hebt en hoe je de warmtepomp airco gaat gebruiken. 
+
+ en buren (en vooral hun kinderen) die al eerder in bed liggen zullen hier last van hebben.En juist als ze  's Nachts slapen de buren juist van 
+
+Een paar dingen om rekening mee te houden:
+
+Belangrijke zaken om rekening mee te houden: waar 'straalt' het geluid naartoe, en hoe hoor je de warmtepomp binnen en welke kant blaast de warmtepomp op?
+
+Aan de muur in beugels
+
+Op het dak van de aanbouw of garage
+
+Op de grond
+
+Vaak zijn de opties om op de Dit is gebaseerd op eigen ervaringen, en die van collega's.
