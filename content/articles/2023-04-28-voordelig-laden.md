@@ -1,8 +1,8 @@
 ---
 concept: true
 title: Prijs voor laden
-created: 2022-01-23T09:00
-updated: 2022-01-23T09:00
+date: 2022-01-23T09:00
+update: 2022-01-23T09:00
 author: Melle Wijnia
 categories:
   - Electrische auto

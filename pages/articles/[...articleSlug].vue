@@ -11,7 +11,7 @@
             <div class="relative">
               <div class="opacity-60 mt-8 mb-2 w-16 h-[1px] overflow-hidden bg-lime-400 dark:bg-white/40"/>
               <p class="text-sm opacity/70">
-                {{ appFormatDate(article.created, 'd MMMM yyyy') }} - {{ article.author }}
+                {{ appFormatDate(article.date, 'd MMMM yyyy') }} - {{ article.author }}
               </p>
               <div class="opacity-60 mt-2 mb-4 w-12 h-[1px] overflow-hidden bg-lime-400 dark:bg-white/40"/>
             </div>

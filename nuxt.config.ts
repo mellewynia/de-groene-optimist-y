@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   // nitro: {
   //   preset: 'service-worker'
   // },
+  // generate: {routes: ['/','all','my','other','routes']},
   modules: [
     '@nuxt/image-edge',
     '@nuxt/content',

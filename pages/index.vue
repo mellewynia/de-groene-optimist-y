@@ -14,7 +14,7 @@
         <div class="flex-1 w-full md:min-w-[400px] ml-4 mr-4 md:ml-6">
           <h6 class="font-[240] text-xl md:text-3xl">{{ article.title }}</h6>
           <p class="mt-2 text-sm opacity-70">
-            {{ appFormatDate(article.created, 'dd MMMM yyyy') }}
+            {{ appFormatDate(article.date, 'dd MMMM yyyy') }}
           </p>
           <p class="mt-3 intro">
             {{ article.description }}

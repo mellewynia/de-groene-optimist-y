@@ -1,7 +1,7 @@
 ---
 title: Onze keuze voor cv met airco
-created: 2022-05-06T09:00
-updated: 2022-05-06T09:00
+date: 2022-05-06T09:00
+update: 2022-05-06T09:00
 author: Melle Wijnia
 concept: true
 categories:
