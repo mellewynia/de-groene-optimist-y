@@ -1,38 +1,73 @@
 ---
 title: Over
-leadImages:
-  - /images/blog/chris-curry-jEca2PSQL-4-unsplash.jpg
+headerHide: true
 ---
+
+<div class="mt-10 mb-10 md:mt-20 md:mb-16 lg:mt-40 font-[240] text-xl md:text-3xl"></div>
+
+<section>
+  <div>
+    <strong>de</strong> <em class="opacity-70">(bepaald lidwoord)</em>
+    <div class="ml-4">
+      <ol class="mt-3 prose-ol text-sm">
+        <li>de man, de vrouw</li>
+        <li>als superlatief, met klemtoon: dat is dé manier de beste</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="opacity-60 mt-6 mb-2 w-16 h-[1px] overflow-hidden bg-lime-400 dark:bg-white/40"></div>
+
+  <div class="mt-4">
+    <strong>groen</strong>e <em class="opacity-70"> (bijvoeglijk naamwoord)</em>
+    <div class="ml-4">
+      <ul class="prose-ol text-sm">
+        <li>
+          met een kleur tussen geel en blauw: het groene licht geven toestemming geven;
+          zich groen en geel ergeren zich vreselijk ergeren
+        </li>
+        <li>
+          milieuvriendelijk; de groene partij, de groenen politieke organisatie van milieubeschermers;
+          groene stroom elektriciteit die wordt opgewekt uit duurzame energiebronnen zoals zon, wind of waterkracht
+        </li>
+        <li>
+          onervaren: zo groen als gras totaal onervaren
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="opacity-60 mt-6 mb-2 w-16 h-[1px] overflow-hidden bg-lime-400 dark:bg-white/40"></div>
+
+  <div class="mt-4">
+    <h3>
+      <strong>op·ti·mist</strong> <em class="opacity-70">(de; m/v/x; meervoud: optimisten)</em>
+    </h3>
+    <div class="ml-4">
+      <ol class="prose-ol text-sm">
+        <li>iemand die alles van de beste kant beschouwt</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+
+<div class="mt-10 md:mt-16"></div>
 
 De Groene Optimist is gestart uit enthousiasme vóór en om kanttekeningen te plaatsen bij ‘groene’ ontwikkelingen in Nederland, Europa en de wereld.
 
-<!-- ## Team -->
+<div class="mt-10 md:mt-20"></div>
 
-### Melle Wijnia
+[Team](/team)
 
-[website](https://mellewynia.nl) [twitter](https://twitter.com/mellewynia) optimist@mellewynia.nl
+<div class="mt-10 md:mt-20"></div>
 
-Melle is een vader van drie en freelance software architect / ontwikkelaar, gespecialiseerd in front-end. 
-Daar draait alles om automatisering, naadloze integraties en een uitstekende gebruikerservaring.
+### Bronnen
 
-Al van jongs af aan zit er een sterke drive in om efficiënte, doordachte constructies te maken. 
-Dat varieert van puzzelen in Sim City tot vandaag de dag het leiden van teams en bedenken van efficiënte oplossingen.
+<div class="text-sm">
 
-Bij het updaten van zijn huis en auto is het idee geboren om de ‘De groene Optimist’ te starten.
-Door dingen uit te doen en uit te zoeken, ontdek je soms antwoorden op vragen waarvan je niet wist dat je ze had.
+- [De Van Dale](https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/de)</small>
+- [Groen Van Dale](https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/groen)</small>
+- [Optimist Van Dale](https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/de)</small>
 
-## De naam
-
-De naam De Groene Optimist is eigenlijk dubbelzinnig.
-Voor mijn werk moet je een optimistische blik en aanpakkers mentaliteit hebben.
-Het ‘groen‘ gaat om hoe dit nieuw is.
-‘De’ geeft ‘De Groene Optimist’ een beetje body.
-
-<!-- 
-Melle is een software architect, ontwikkelaar gespecialiseerd in front-end.
-Op freelance basis ondersteunt hij teams bij allerlei ondernemingen met hun vernieuwingen aan websites, apps en andere flows.
-Hij heeft een passie voor efficiënte integraties, automatisering, elegante code en een uitstekende gebruikerservaring.
-
-In mijn leven probeer ik ook doordachte beslissingen te maken. Zodoende zit 
-Als vader van drie jonge zonen, probeer ik bij het maken van beslissingen het milieuaspect ook mee af te wegen en dit blijkt niet zo eenvoudig.
-Mijn bevindingen deel ik hier. -->
+</div>

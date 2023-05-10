@@ -1,10 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  // ssr: false,
-  // nitro: {
-  //   preset: 'service-worker'
-  // },
-  // generate: {routes: ['/','all','my','other','routes']},
+  ssr: true,
   modules: [
     '@nuxt/image-edge',
     '@nuxt/content',
@@ -12,10 +8,22 @@ export default defineNuxtConfig({
   // content: {
   //   // https://content.nuxtjs.org/api/configuration
   // },
+  experimental: {
+    payloadExtraction: false
+  },
+  router: {
+    options: {
+      strict: false
+    }
+  },
+  sourcemap: false,
   app: {
     head: {
       link: [
-        { rel: 'stylesheet', href: '/css/fonts/Supreme.css' }
+        { rel: 'stylesheet', href: '/css/fonts/Supreme.css' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.png' },
+      ],
+      meta: [
       ]
     }
   },

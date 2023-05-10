@@ -15,29 +15,69 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.nav-item {
+  @apply border-b-2 transition ease-in duration-[380ms] border-b-black/0 dark:border-b-white/0;
+  @apply active:duration-[62ms] active:border-b-black/60 active:dark:border-b-white/60;
+}
+
+.nav-item.router-link-exact-active {
+  @apply border-b-black/40 dark:border-b-white/40;
+}
+
+/* UTILS / HELPERS */
+
 .app-font-number {
   font-family: 'Open SansVariable', sans-serif;
 }
 
-.prose * {
+/* PROSE */
+
+.prose {
   font-variant-numeric: lining-nums;
+  @apply md:text-[18px];
+  line-height: 162%;
 }
 
+/* .prose * {
+} */
+
 .prose > p {
-  @apply mt-3 md:mt-6 md:text-[18px];
-  line-height: 162%;
+  @apply mt-3 md:mt-6
 }
 
 .prose > p > a {
   @apply text-cta-default underline underline-offset-[2px] decoration-[2px] decoration-cta-default/20 dark:decoration-cta-400/30 dark:text-cta-400 transition ease-out hover:decoration-cta-default/60 dark:hover:decoration-cta-400/60 active:transition-none active:decoration-cta-default/100 dark:active:decoration-cta-400/100
 }
 
+.prose-ol,
+.prose > ol {
+  list-style: number;
+  /* counter-reset: cupcake; */
+  padding-left: 1em;
+}
+
+.prose-ol li,
+.prose > ol li {
+  @apply relative mt-[0.6em] pl-[0.5em];
+}
+
+.prose-ol li::before,
+.prose > ol li::before {
+  content: '';
+  @apply absolute -z-[1] -top-[0.1em] right-[100%] bg-lime-300/40 dark:bg-lime-300/20 rounded-[26px] h-[1.6em] w-[1.6em]
+}
+
+.prose-ol li::marker,
+.prose > ol li::marker {
+  @apply block relative z-[1] font-bold w-10 font-number;
+}
+
 h2 {
-  @apply mt-8 md:mt-12 text-3xl
+  @apply mt-8 md:mt-12 text-3xl;
 }
 
 .prose > h3 {
-  @apply mt-6 md:mt-8 md:text-[22px] font-[700]
+  @apply mt-6 md:mt-8 md:text-[22px] font-[700];
 }
 
 .prose > h3 + p {
