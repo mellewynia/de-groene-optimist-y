@@ -1,5 +1,5 @@
 <template>
-  <section class="font-number">
+  <section class="font-number text-[90%]">
     <div class="flex gap-3">
       <div>
         <div class="flex gap-3">
@@ -231,8 +231,8 @@ const form = reactive({
   investeringHybrideSubsidie: 2000,
   investeringWarmtepomp: 12000,
   investeringWarmtepompSubsidie: 4000,
-  gasM3: 1050,
-  gasPrice: 1.45,
+  gasM3: 1000,
+  gasPrice: 1.4,
   gasVastrecht: 150,
   kWPrice: 0.40,
   cop: 3.7

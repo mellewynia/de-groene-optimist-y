@@ -2,7 +2,7 @@
 concept: false
 title: Vanaf 2026 verplicht hybride warmtepomp bij vervanging cv. Wat kost dat, en wat zou jij doen? 
 image: /images/2023/airco-en-warmtepomp-op-zijgevel.jpeg
-imageAlt: Prachtige lenteplaatje met een Daikin airco, en een Daikin Altherma aan de muur.
+imageAlt: Prachtig lenteplaatje met een Daikin airco, en een Daikin Altherma aan de muur.
 date: 2023-05-01T09:00
 dateUpdate: 2023-05-06T09:00
 author: Melle Wynia
@@ -16,14 +16,15 @@ De 'belofte' is dat deze in 7 jaar terugverdiend is.
 Maar of dit echt zo loopt, is maar de vraag.
 Dit kan eigenlijk alleen als de gasprijs veel hoger wordt.
 
-<strong>Update: </strong> 5 dagen later (na begin van schrijven) krijgen we update dat het kabinet zich dit ook voorneemt ([bericht 6 mei NOS](https://nos.nl/artikel/2474016-steun-en-kritiek-voor-nieuwe-klimaatmaatregel-om-aardgasverbruik-af-te-remmen)).
-
 Interessant.
 Tijd om te gaan rekenen.
 Ons huishouden zit – toevallig – ook in de situatie dat de cv-ketel binnenkort vervangen moet worden. 
 Offertes leveren zeer verschillende financiële plaatjes op.
 Bovendien laten de opties zich lastig vergelijken.
 Als rekenaar (en software ontwikkelaar) wil ik een poging wagen.
+
+<strong>Update: </strong> 5 dagen later krijgen we update dat het kabinet zich ook voorneemt de gasprijzen te verhogen ([bericht 6 mei NOS](https://nos.nl/artikel/2474016-steun-en-kritiek-voor-nieuwe-klimaatmaatregel-om-aardgasverbruik-af-te-remmen)).
+Volgens mijn berekening zou die dan boven de € 2,- moeten komen om het omslagpunt in de buurt te laten komen.
 
 ## Rekenmodel
 
@@ -42,7 +43,10 @@ Vastrecht, prijsschommelingen, (toekomstige) overheidsmaatregelen, SSW (Sanitair
 Dat betekent dus een hoop onzekerheid, maar het geeft wel een indruk.
 
 <small class="block">
-  Aan het rekenmodel kunnen geen rechten worden ontleend. Zelf rekenmodel aanpassen? Bekijk broncode
+
+Aan het rekenmodel kunnen geen rechten worden ontleend.
+Zelf rekenmodel aanpassen? [Broncode](https://github.com/mellewynia/de-groene-optimist-y)
+  
 </small>
 
 <div class="mt-8">
@@ -53,24 +57,20 @@ Dat betekent dus een hoop onzekerheid, maar het geeft wel een indruk.
 </div>
 
 
-## Conclusies
+## Vergelijking kosten
 
-<img src="/images/2025-05/berekening-middenwoning-cv-gas-hybride-all-electric.png" alt="Resultaten na berekening" />
-<small class="opacity-60 text-md">
-  Uit deze snelle vergelijking kun je een aantal conclusies trekken.
-  Heb je een groter verbruik, dan ligt het omslagpunt een stuk lager.
-  Door ook in zonnepanelen en een zonnecollectoren komt het omslagpunt nog veel lager te liggen.
-  Worden de gasprijzen een stuk lager, dan loont het vermoedelijk niet.
-</small>
-
-<hr />
-
-Met alle prijsfluctuaties in 2022 is het duidelijk geworden dat je haast geen projectie meer kunt maken voor een termijn van 5, 7 of zelfs 15 jaar.
-Het lijkt voor de hand te liggen dat de gasprijzen middels extra belastingen zullen blijven stijgen.
-Hoeveel? Dat weet niemand.
-
-Heb je een groot huishouden met een hoog verbruik, dan is een renovatie met isolatie, technische ruimte en warmtepomp (all-electric) potentieel voordeliger.
-Zeker als je dit kunt combineren met zonnepanelen i.c.m. salderingsregeling.
+<img src="/images/2025-05/berekening-middenwoning-cv-gas-hybride-all-electric.png" alt="Resultaten na berekening" /> 
 
 Heb je een kleiner (of zuiniger) huishouden, of bijvoorbeeld een airco (zoals wij), dan lijkt het erop dat het wel eens goedkoper kan zijn om een nieuwe cv te nemen i.p.v. een warmtepomp.
 In elk geval voor de komende jaren.
+
+Heb je een groot huis(houden) met een hoog verbruik, dan is een renovatie met isolatie, technische ruimte en warmtepomp (all-electric) potentieel veel voordeliger.
+Zeker als je dit kunt combineren met zonnepanelen i.c.m. salderingsregeling die de komende jaren nog geldt.
+
+<div class="opacity-60 mt-8 mb-2 w-16 h-[1px] overflow-hidden bg-lime-400 dark:bg-white/30"></div>
+
+Uit deze snelle vergelijking kun je een aantal conclusies trekken.
+Heb je een groter verbruik, dan ligt het omslagpunt een stuk lager.
+Als de gasprijs snel hoger wordt, dan wordt het omslagpunt ook snel lager.
+Het verschil tussen hybride en all-electric is niet heel groot.
+Vermoedelijk verdien je all-electric dan terug omdat je geen onderhoud meer aan je ketel hebt en geen vastrecht hoeft te betalen voor je gasaansluiting.

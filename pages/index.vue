@@ -30,10 +30,6 @@
 </template>
 
 <script setup lang="ts">
-// definePageMeta({
-//   title: 'Blog',
-// })
-
 const articles = await queryContent('/articles')
   .where({ concept: { $ne: true } })
   .sort({ date: -1 })

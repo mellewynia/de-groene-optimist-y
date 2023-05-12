@@ -73,7 +73,7 @@ body {
 }
 
 h2 {
-  @apply mt-8 md:mt-12 text-3xl;
+  @apply mt-8 md:mt-12 text-3xl font-[350];
 }
 
 .prose > h3 {

@@ -114,7 +114,7 @@ useHead({
           </div>
           <p class="text-right opacity-70"><small>{{ data.article.imageAlt }}</small></p>
           <div class="heading px-4 relative mb-8 mt-8 md:mt-16">
-            <h1 class="font-[200] text-3xl md:text-6xl md:font-[100]">{{ data.article.title }}</h1>
+            <h1 class="font-[200] text-3xl md:text-6xl md:font-[150]">{{ data.article.title }}</h1>
             <div class="relative">
               <div class="opacity-60 mt-8 mb-2 w-16 h-[1px] overflow-hidden bg-lime-400 dark:bg-white/30"/>
               <p class="text-sm opacity-70">
