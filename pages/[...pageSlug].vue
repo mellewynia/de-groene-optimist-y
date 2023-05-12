@@ -10,6 +10,10 @@ const { data, error } = await useAsyncData(`content-${cleanPath}`, async () => {
     article: await article,
   };
 });
+
+useHead({
+  title: data.value?.article?.title,
+});
 </script>
 
 <template>

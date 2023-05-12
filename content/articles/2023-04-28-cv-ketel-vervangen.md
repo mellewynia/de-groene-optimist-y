@@ -1,13 +1,13 @@
 ---
 concept: false
 title: Vanaf 2026 verplicht hybride warmtepomp bij vervanging cv. Wat kost dat, en wat zou jij doen? 
-date: 2023-05-11T09:00
-update: 2023-05-11T09:00
+image: /images/2023/airco-en-warmtepomp-op-zijgevel.jpeg
+imageAlt: Prachtige lenteplaatje met een Daikin airco, en een Daikin Altherma aan de muur.
+date: 2023-05-01T09:00
+dateUpdate: 2023-05-06T09:00
 author: Melle Wynia
 categories:
-  - Huis
-leadImages:
-  - /images/2023/airco-en-warmtepomp-op-zijgevel.jpeg
+    - Huis
 ---
 
 Het kabinet neem zich voor om vanaf 2026 hybride warmtepomp / cv te verplichten ([bericht 1 mei NOS](https://nos.nl/artikel/2473495-appartementen-en-monumenten-hoeven-niet-aan-de-warmtepomp)) bij een aantal type woningen.

@@ -1,7 +1,7 @@
 <template>
   <header class="mx-auto max-w-[700px]">
     <div class="pt-3 px-4">
-      <nav class="mt-3 flex gap-3">
+      <nav class="mt-3 flex gap-3 md:gap-6">
         <NuxtLink class="nav-item" to="/">Overzicht</NuxtLink>
         <NuxtLink class="nav-item" to="/over">Over</NuxtLink>
         <!-- <NuxtLink to="/">EVs</NuxtLink>

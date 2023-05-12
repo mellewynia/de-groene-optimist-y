@@ -1,12 +1,16 @@
 ---
 title: 1 fase of 3 fase laden?
 date: 2022-01-23T09:00
-update: 2022-01-23T09:00
+dateUpdate: 2022-01-23T09:00
 author: Melle Wijnia
 categories:
-  - Electrische auto
-leadImages:
-  - /images/2023-04/snelladen-bij-fastned.jpeg
+    - Elektrische auto
+image: /images/2023-04/snelladen-bij-fastned.jpeg
+imageAlt: 
+social:
+    image: /images/2023-04/snelladen-bij-fastned.jpeg
+    imageAlt: 
+    excerpt: 
 ---
 
 Recentelijk zijn er een aantal elektrische auto's op de markt gebracht voor het middensegment die slechts 1 fase boordlader hebben.
