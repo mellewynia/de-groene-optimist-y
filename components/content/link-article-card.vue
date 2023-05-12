@@ -12,7 +12,7 @@ const { data, error } = await useAsyncData(`content-link-article-${props.slug}`,
 </script>
 
 <template>
-  <NuxtLink v-if="data.article" :to="data.article._path" class="block transition ease-out text-(90%) text-cta-default dark:text-cta-400 bg-cta-default/10 dark:bg-cta-400/10 transition ease-out hover:bg-cta-default/20 dark:hover:bg-cta-400/20 active:transition-none active:bg-cta-default/30 dark:active:bg-cta-400/30 py-3 px-4 max-w-[200px] rounded-md">
+  <NuxtLink v-if="data.article" :to="data.article._path" class="block transition ease-out leading-[126%] text-cta-default dark:text-cta-400 bg-cta-200/10 dark:bg-cta-400/10 transition ease-out hover:bg-cta-200/20 dark:hover:bg-cta-400/20 active:transition-none active:bg-cta-200/30 dark:active:bg-cta-400/30 py-3 px-4 max-w-[200px] rounded-md">
     <small v-if="data.article.date" class="block opacity-60">{{ appFormatDate(data.article.date, 'dd MMMM yyyy') }}</small>
     <span class="font-[300]">{{ data.article.title }}</span>
     <!-- <div class="top-0 mt-6 ltr:right-0 rtl:left-0 md:mt-0 lg:absolute aos-init aos-animate" data-aos="fade-left" data-aos-duration="1000">
