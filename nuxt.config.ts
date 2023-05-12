@@ -24,7 +24,10 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.png' },
       ],
       meta: [
-      ]
+      ],
+      htmlAttrs: {
+        lang: 'nl',
+      },
     }
   },
   postcss: {
