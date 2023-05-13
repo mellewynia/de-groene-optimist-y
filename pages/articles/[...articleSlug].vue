@@ -76,7 +76,7 @@ useHead({
     { name: 'description', content: data.value?.article?.description },
     { property: 'article:published_time', content: data.value?.article?.date.split('T')[0] },
     // OG
-    { hid: 'og:title', property: 'og:title', content: data.value?.article?.headline },
+    { hid: 'og:title', property: 'og:title', content: data.value?.article?.title },
     { hid: 'og:url', property: 'og:url', content: canonicalPath },
     { hid: 'og:description', property: 'og:description', content: data.value?.article?.description },
     { hid: 'og:image', name: 'image', property: 'og:image', content: socialImage },
