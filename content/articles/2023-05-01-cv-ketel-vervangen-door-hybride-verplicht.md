@@ -1,7 +1,7 @@
 ---
 concept: false
 title: Vanaf 2026 verplicht hybride warmtepomp bij vervanging cv. Wat kost dat, en wat zou jij doen? 
-image: /images/2023/airco-en-warmtepomp-op-zijgevel.jpeg
+image: /images/2023-05/daikin-altherma-warmtepomp-en-airco-op-zijgevel.jpeg
 imageAlt: Prachtig lenteplaatje met een Daikin airco, en een Daikin Altherma aan de muur.
 date: 2023-05-01T09:00
 dateUpdate: 2023-05-06T09:00
@@ -59,7 +59,7 @@ Zelf rekenmodel aanpassen? [Broncode](https://github.com/mellewynia/de-groene-op
 
 ## Vergelijking kosten
 
-<img src="/images/2025-05/berekening-middenwoning-cv-gas-hybride-all-electric.png" alt="Resultaten na berekening" /> 
+<img src="/images/2023-05/berekening-middenwoning-cv-gas-hybride-all-electric.png" alt="Resultaten na berekening" /> 
 
 Heb je een kleiner (of zuiniger) huishouden, of bijvoorbeeld een airco (zoals wij), dan lijkt het erop dat het wel eens goedkoper kan zijn om een nieuwe cv te nemen i.p.v. een warmtepomp.
 In elk geval voor de komende jaren.
