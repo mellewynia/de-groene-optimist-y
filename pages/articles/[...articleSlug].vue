@@ -17,11 +17,11 @@ const { data, error } = await useAsyncData(`content-${cleanPath}`, async () => {
 
 const baseUrl = 'https://degroeneoptimist.nl';
 const canonicalPath = baseUrl + (path + '/').replace(/\/+$/, '/');
-const image = baseUrl + (data.value?.article?.social?.image || '/images/2023/airco-en-warmtepomp-op-zijgevel.jpeg');
+const image = baseUrl + (data.value?.article?.image || '/images/2023-05/daikin-altherma-warmtepomp-en-airco-op-zijgevel.jpeg');
 const imageAlt = data.value?.article?.imageAlt || '';
 const socialImage = data.value?.article?.social?.image || image;
 const socialImageAlt = data.value?.article?.social?.imageAlt || imageAlt;
-const socialExcerpt = data.value?.article?.social?.excerpt || data.value?.article?.excerpt || data.value?.article?.description;
+const socialExcerpt = data.value?.article?.social?.excerpt || data.value?.article?.excerpt || data.value?.article?.description.replaceAll('\n', '');
 
 // JSON+LD
 const jsonScripts = [
@@ -37,7 +37,7 @@ const jsonScripts = [
       url: canonicalPath,
       image,
       headline: data.value?.article?.title,
-      abstract: data.value?.article?.excerpt || socialExcerpt,
+      abstract: socialExcerpt,
       datePublished: data.value?.article?.date,
       dateModified: data.value?.article?.dateUpdated || data.value?.article?.date,
       author: {
@@ -73,12 +73,12 @@ useHead({
   title: data.value?.article?.title,
   meta: [
     { name: 'author', content: data.value?.article?.author },
-    { name: 'description', content: data.value?.article?.description },
+    { name: 'description', content: socialExcerpt },
     { property: 'article:published_time', content: data.value?.article?.date.split('T')[0] },
     // OG
     { hid: 'og:title', property: 'og:title', content: data.value?.article?.title },
     { hid: 'og:url', property: 'og:url', content: canonicalPath },
-    { hid: 'og:description', property: 'og:description', content: data.value?.article?.description },
+    { hid: 'og:description', property: 'og:description', socialExcerpt },
     { hid: 'og:image', name: 'image', property: 'og:image', content: socialImage },
     { hid: 'og:type', property: 'og:type', content: 'Article' },
     // { hid: 'og:image:type', property: 'og:image:type', content: `image/jpeg` }, // ${data.value?.article?.socialImage?.mime}
