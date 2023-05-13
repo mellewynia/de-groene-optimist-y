@@ -21,7 +21,7 @@ const image = baseUrl + (data.value?.article?.image || '/images/2023-05/daikin-a
 const imageAlt = data.value?.article?.imageAlt || '';
 const socialImage = data.value?.article?.social?.image || image;
 const socialImageAlt = data.value?.article?.social?.imageAlt || imageAlt;
-const socialExcerpt = data.value?.article?.social?.excerpt || data.value?.article?.excerpt || data.value?.article?.description.replaceAll('\n', '');
+const socialExcerpt = data.value?.article?.social?.excerpt || data.value?.article?.excerpt || data.value?.article?.description.replaceAll('\n', ' ');
 
 // JSON+LD
 const jsonScripts = [
